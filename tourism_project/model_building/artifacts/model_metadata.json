@@ -1,0 +1,27 @@
+{
+    "best_model": "Extra Trees",
+    "best_cv_roc_auc": 0.8975300373453443,
+    "best_parameters": {
+        "classifier__n_estimators": 100,
+        "classifier__min_samples_split": 5,
+        "classifier__min_samples_leaf": 1,
+        "classifier__max_features": "log2",
+        "classifier__max_depth": 15
+    },
+    "features": [
+        "Age",
+        "TypeofContact",
+        "CityTier",
+        "Occupation",
+        "Gender",
+        "NumberOfPersonVisiting",
+        "PreferredPropertyStar",
+        "MaritalStatus",
+        "NumberOfTrips",
+        "Passport",
+        "OwnCar",
+        "NumberOfChildrenVisiting",
+        "Designation",
+        "MonthlyIncome"
+    ]
+}
